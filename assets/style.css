@@ -1,0 +1,13 @@
+.navbar-custom {
+    background-color: #f1fd11;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color: black; 
+    font-family: 'Spartan', sans-serif;
+    font-weight: 900;
+} 
+
+.nav-item a {
+    color: black;
+}
