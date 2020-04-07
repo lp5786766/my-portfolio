@@ -1,26 +1,57 @@
+body {
+    background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6512025181957073011&th=17155d44978c9ddc&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9ilh_SbYP6z1xGRA6-2V51DB9ueYviV4IYpEb-Nb_kk_taLk5EAvTmIB_giS4zC3wk4InqGCxMVCSQE1QdTOlvDne4KXY5WklN8xIp7WmjOMaaGSsw_5ALIqs&disp=emb&realattid=ii_k8q7vpnj0");
+    background-size: cover;
+    font-family: 'Spartan', sans-serif;
+    color: black;
+}
+.container {
+    background-color: white;
+}
+
 .navbar-custom {
-    background-color: #f1fd11;
+    background-color: rgba(241,253,17,0.8);
     padding: 0px 16px;
 }
-.navbar-custom .navbar-brand, 
-.navbar-custom .navbar-text { 
-    color: black; 
-    font-family: 'Spartan', sans-serif;
+
+h1 { 
     font-weight: 900;
-} 
-h1 {
-    color: black; 
-    font-family: 'Spartan', sans-serif;
-    font-weight: 900;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
+}
+.caption {
+    background-color: rgba(241,253,17,0.9);
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+.card-img-overlay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .nav-item a {
+    font-weight: 400;
     color: black;
 }
+#full {
+    background-color: rgba(0,0,0,0.8);
+    color: rgba(241,253,17);
+    width: 100%;
+}
 
+#new {
+    background-color: black;
+    color: rgba(241,253,17);
+    width: 100%;
+}
+#remove-padding{
+    padding: 20px 0px;
+}
 div .row {
-    border: 2px solid black;
+    border: 3px solid black;
     margin-top: 20px;
+}
+div .col-md-4 {
+    border: 1px solid black;  
 }
 
