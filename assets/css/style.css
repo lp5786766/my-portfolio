@@ -1,13 +1,36 @@
+/* Main elements of the page: */
+
 body {
     background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6512025181957073011&th=17155d44978c9ddc&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9ilh_SbYP6z1xGRA6-2V51DB9ueYviV4IYpEb-Nb_kk_taLk5EAvTmIB_giS4zC3wk4InqGCxMVCSQE1QdTOlvDne4KXY5WklN8xIp7WmjOMaaGSsw_5ALIqs&disp=emb&realattid=ii_k8q7vpnj0");
     background-size: cover;
     font-family: 'Spartan', sans-serif;
     color: black;
 }
+.content {
+    position: relative;
+    min-height: 100vh;
+}
 .container {
+    padding-bottom: 30px;
     background-color: white;
 }
 
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color:  rgba(0,0,0,0.8) ;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+footer p {
+    margin: 0px;
+}
 .navbar-custom {
     background-color: rgba(241,253,17,0.8);
     padding: 0px 16px;
@@ -19,18 +42,22 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+
 h2 {
     font-size: 1.5rem;
 }
+
 .caption h2 {
     font-size: 1.2rem;
 }
+
 .caption {
     background-color: rgba(241,253,17,0.9);
     text-align: center;
     padding: 8px;
     color: black;
 }
+
 .card-img-overlay {
     display: flex;
     align-items: flex-end;
@@ -41,6 +68,7 @@ h2 {
     font-weight: 400;
     color: black;
 }
+
 #full {
     background-color: rgba(0,0,0,0.8);
     color: rgba(241,253,17);
@@ -52,17 +80,40 @@ h2 {
     color: rgba(241,253,17);
     width: 100%;
 }
+
 #remove-padding{
     padding: 20px 0px;
 }
+
 div .row {
     border-bottom: 3px solid silver;
-    /* border-right: 3px solid black;
-    border-left: 3px solid black; */
     margin-top: 20px;
 }
+
 div .col-md-4 {
     border: 1px solid black;  
     margin-bottom: 20px;
 }
+
+.contactimg a{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.contactimg img {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+.contactimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
 
