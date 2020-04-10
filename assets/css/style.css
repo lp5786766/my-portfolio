@@ -2,7 +2,6 @@
 
 body {
     background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6782954671119473188&th=17165b42fa12e13c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-pv7Am81BTJH9xx0PS4DHbVsphhrnz-lhK9KvX2uh0jNRKxJZ7NvwBZz783-PwFim4iOQlufZd1J4vkRIO5r8ym6O5mgZpkBUCftMSgZLLOY7genYaftE7WbM&disp=emb&realattid=ii_k8umfthp0");
-
     background-size: cover;
     font-family: 'Spartan', sans-serif;
     color: black;
@@ -15,7 +14,6 @@ body {
     padding-bottom: 30px;
     background-color: white;
 }
-
 
 footer {
     position: absolute;
@@ -33,9 +31,15 @@ footer {
 footer p {
     margin: 0px;
 }
+
 .navbar-custom {
     background-color: rgba(241,253,17,0.8);
     padding: 0px 16px;
+}
+
+.nav-item a {
+    font-weight: 400;
+    color: black;
 }
 
 h1 { 
@@ -46,6 +50,17 @@ h1 {
     justify-content: space-around;
 }
 
+
+    /* Home Page Elements */
+
+#profile {
+    border-radius: 50%; 
+    margin-bottom: 20px;
+}
+
+
+    /* Portfolio Page Elements */
+
 h2 {
     font-size: 1.5rem;
 }
@@ -55,20 +70,14 @@ h2 {
 }
 
 .card {
-    margin-right: 20px;
+    margin: 0px 20px;
 }
 
 .card-img-overlay {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    
-}
-
-.nav-item a {
-    font-weight: 400;
-    color: black;
-}
+}    
 
 .caption {
     background-color: rgba(0,0,0,0.8);
@@ -78,29 +87,12 @@ h2 {
     padding: 8px;
 }
 
-#new {
-    background-color: black;
-    color: rgba(241,253,17);
-    width: 100%;
-}
-
-#remove-padding{
-    padding: 20px 0px;
-}
-
-div .row {
-    /* border-bottom: 3px solid silver; */
+div .col-md-4 { 
+    margin-bottom: 20px;
     margin-top: 20px;
 }
 
-div .col-md-4 { 
-    margin-bottom: 20px;
-}
-
-div .col-md-3 { 
-    padding: 0px;
-}
-
+    /* Contact Page Elements */
 
 .contactimg a{
     font-size: 15px;
@@ -120,14 +112,6 @@ div .col-md-3 {
     align-items: center;
 }
 
-#profile {
-   border-radius: 50%; 
-   margin-bottom: 20px;
-}
-
 form {
     border-bottom: 20px solid white;
 }
-
-
-
