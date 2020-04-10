@@ -1,7 +1,8 @@
 /* Main elements of the page: */
 
 body {
-    background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6512025181957073011&th=17155d44978c9ddc&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9ilh_SbYP6z1xGRA6-2V51DB9ueYviV4IYpEb-Nb_kk_taLk5EAvTmIB_giS4zC3wk4InqGCxMVCSQE1QdTOlvDne4KXY5WklN8xIp7WmjOMaaGSsw_5ALIqs&disp=emb&realattid=ii_k8q7vpnj0");
+    background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6782954671119473188&th=17165b42fa12e13c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-pv7Am81BTJH9xx0PS4DHbVsphhrnz-lhK9KvX2uh0jNRKxJZ7NvwBZz783-PwFim4iOQlufZd1J4vkRIO5r8ym6O5mgZpkBUCftMSgZLLOY7genYaftE7WbM&disp=emb&realattid=ii_k8umfthp0");
+
     background-size: cover;
     font-family: 'Spartan', sans-serif;
     color: black;
@@ -19,6 +20,7 @@ body {
 footer {
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
     height: 30px;
     background-color:  rgba(0,0,0,0.8) ;
@@ -37,8 +39,9 @@ footer p {
 }
 
 h1 { 
-    font-weight: 900;
-    font-size: 2.3rem;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 2.2rem;
     display: flex;
     justify-content: space-around;
 }
@@ -51,17 +54,15 @@ h2 {
     font-size: 1.2rem;
 }
 
-.caption {
-    background-color: rgba(241,253,17,0.9);
-    text-align: center;
-    padding: 8px;
-    color: black;
+.card {
+    margin-right: 20px;
 }
 
 .card-img-overlay {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
+    
 }
 
 .nav-item a {
@@ -69,10 +70,12 @@ h2 {
     color: black;
 }
 
-#full {
+.caption {
     background-color: rgba(0,0,0,0.8);
     color: rgba(241,253,17);
     width: 100%;
+    text-align: center;
+    padding: 8px;
 }
 
 #new {
@@ -86,19 +89,23 @@ h2 {
 }
 
 div .row {
-    border-bottom: 3px solid silver;
+    /* border-bottom: 3px solid silver; */
     margin-top: 20px;
 }
 
-div .col-md-4 {
-    border: 1px solid black;  
+div .col-md-4 { 
     margin-bottom: 20px;
 }
 
+div .col-md-3 { 
+    padding: 0px;
+}
+
+
 .contactimg a{
-    font-size: 20px;
+    font-size: 15px;
     color: black;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .contactimg img {
@@ -113,7 +120,14 @@ div .col-md-4 {
     align-items: center;
 }
 
+#profile {
+   border-radius: 50%; 
+   margin-bottom: 20px;
+}
 
+form {
+    border-bottom: 20px solid white;
+}
 
 
 
