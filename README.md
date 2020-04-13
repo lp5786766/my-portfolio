@@ -1,8 +1,6 @@
 # My Portfolio
 
-Simple-structured portfolio webpage.
-https://lp5786766.github.io/02-bootstrapportfolio/
-
+Simple-structured portfolio webpage, created using Bootstrap library.
 
 The Website contatins three pages:
 1. Home Page.
@@ -31,6 +29,11 @@ This page contains contact information and owner's social media links. It also h
 
 
 You can navigate through pages using the navigation bar at the top of each page.
+
+## Link to the Portfolio:
+
+https://lp5786766.github.io/02-bootstrapportfolio/
+
 
 Credits:
 3 Little Figs Coffee Shop - 278 Highland Ave, Somerville, MA
