@@ -1,7 +1,7 @@
 /* Main elements of the page: */
 
 body {
-    background-image: url("https://mail.google.com/mail/u/3?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r6782954671119473188&th=17165b42fa12e13c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-pv7Am81BTJH9xx0PS4DHbVsphhrnz-lhK9KvX2uh0jNRKxJZ7NvwBZz783-PwFim4iOQlufZd1J4vkRIO5r8ym6O5mgZpkBUCftMSgZLLOY7genYaftE7WbM&disp=emb&realattid=ii_k8umfthp0");
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r128961894482559190&th=17170b18bafbbcfa&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8XoQkpb0bavKJCwQXdMzvooORxCJ5pNCKX6qjA6PxVrJyl-s1H8Low_0BaPXnXh8C2lyYlIAxMYYYmsDMe8c0ii8myIRmHOiEVUyhe5N-Wq-tOu7igdt-kyfc&disp=emb&realattid=ii_k8xo7xfp0");
     background-size: cover;
     font-family: 'Spartan', sans-serif;
     color: black;
@@ -50,6 +50,11 @@ h1 {
     justify-content: space-around;
 }
 
+.border {
+    margin: 15px;
+
+}
+
 
     /* Home Page Elements */
 
@@ -63,10 +68,13 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    padding: 15px 0px;
 }
 
 .caption h2 {
     font-size: 1.2rem;
+    padding: 5px;
+    margin: 0px;
 }
 
 .card {
@@ -84,12 +92,7 @@ h2 {
     color: rgba(241,253,17);
     width: 100%;
     text-align: center;
-    padding: 8px;
-}
-
-div .col-md-4 { 
-    margin-bottom: 20px;
-    margin-top: 20px;
+   
 }
 
     /* Contact Page Elements */
@@ -114,4 +117,38 @@ div .col-md-4 {
 
 form {
     border-bottom: 20px solid white;
+}
+
+@media screen and (max-width: 992px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    #profile {
+        width: 150px;
+    }
+
+    .caption h2 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .card img {
+        max-block-size: 350px;
+    }
+    .card {
+        max-width: 350px;
+        padding-bottom: 10px;
+    }
 }
