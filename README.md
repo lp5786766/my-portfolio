@@ -30,11 +30,15 @@ This page contains contact information and owner's social media links. It also h
 
 You can navigate through pages using the navigation bar at the top of each page.
 
+
+
 ## Link to the Portfolio:
 
 https://lp5786766.github.io/02-bootstrapportfolio/
 
 
-Credits:
+
+
+## Credits:
 3 Little Figs Coffee Shop - 278 Highland Ave, Somerville, MA
 Luba Pecheneva
