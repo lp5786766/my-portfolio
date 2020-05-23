@@ -1,7 +1,7 @@
 /* Main elements of the page: */
-/* * {
+* {
     border: 1px solid black;
-} */
+}
 
 body {
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r128961894482559190&th=17170b18bafbbcfa&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8XoQkpb0bavKJCwQXdMzvooORxCJ5pNCKX6qjA6PxVrJyl-s1H8Low_0BaPXnXh8C2lyYlIAxMYYYmsDMe8c0ii8myIRmHOiEVUyhe5N-Wq-tOu7igdt-kyfc&disp=emb&realattid=ii_k8xo7xfp0");
@@ -65,12 +65,12 @@ h1 {
 
 #profile {
     border-radius: 50%; 
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .resume a {
     color: black;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 h2 {
@@ -81,7 +81,7 @@ h2 {
 }
 
 .card {
-    margin: 0px 20px 30px 20px;
+    margin: 0px 20px 30px 0px;
 }
 
 .card-img-overlay {
@@ -103,14 +103,26 @@ h2 {
 .contactimg img {
     width: 50px;
     height: 50px;
+    
     background-size: cover;
 }
-.resume img {
-    width: 50px;
-    height: 50px;
+.resume a img {
+    width: 32px;
+    height: 32px;
     background-size: cover;
+   
+}
+.resume img{
+    margin: 0px;
+}
+.resume-links {
+    padding: 0px;
+    margin-left: 6px;
 }
 
+.btn-outline-light {
+    padding: 0px;
+}
 .contactimg {
     display: flex;
     flex-direction: column;
