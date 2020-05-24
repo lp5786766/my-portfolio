@@ -55,8 +55,8 @@ h1 {
 
 .border {
     margin: 15px;
-    background-color: rgba(241,253,17,0.8);
-    color:rgba(241,253,17,0.8);
+    /* background-color: rgba(241,253,17,0.8);
+    color:rgba(241,253,17,0.8); */
 
 }
 
@@ -65,7 +65,8 @@ h1 {
 
 #profile {
     border-radius: 50%; 
-    margin: 20px;
+    margin: 20px 20px 20px 50px;
+    width: 150px;
 }
 
 .resume a {
@@ -74,8 +75,6 @@ h1 {
 }
 
 h2 {
-    /* font-size: 1.5rem;
-    padding: 15px 0px; */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -118,7 +117,6 @@ h2 {
 }
 .resume-links {
     padding: 0px;
-    /* margin-left: 6px; */
     display: inline;
 }
 
