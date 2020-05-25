@@ -22,8 +22,6 @@ It also displays works of the owner. By clicking on the picture you can visit th
 
 This page contains contact information and owner's social media links. It also has a contact form, that any customer can fill out if they have any questions.
 
-![Contact Page Screenshot](assets/images/contactsnip.PNG)
-
 
 You can navigate between pages using the navigation bar at the top of each page.
 
