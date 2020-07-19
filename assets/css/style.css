@@ -1,10 +1,11 @@
 /* Main elements of the page: */
-
+* {
+    border: 1px solid black;
+}
 body {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r128961894482559190&th=17170b18bafbbcfa&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8XoQkpb0bavKJCwQXdMzvooORxCJ5pNCKX6qjA6PxVrJyl-s1H8Low_0BaPXnXh8C2lyYlIAxMYYYmsDMe8c0ii8myIRmHOiEVUyhe5N-Wq-tOu7igdt-kyfc&disp=emb&realattid=ii_k8xo7xfp0");
-    background-size: cover;
     font-family: 'Spartan', sans-serif;
     color: black;
+    background-color: rgb(31, 30, 20);
 }
 .content {
     position: relative;
@@ -35,11 +36,17 @@ footer p {
 .navbar-custom {
     background-color: rgba(241,253,17,0.8);
     padding: 0px 16px;
+    
 }
 
 .nav-item a {
     font-weight: 400;
     color: black;
+    
+}
+
+.nav-item {
+    display: inline;
 }
 
 h1 { 
