@@ -15,7 +15,9 @@ body {
     padding-bottom: 30px;
     background-color: rgb(233, 233, 233);
 }
-
+#padding-top {
+    padding-top: 30px;
+}
 footer {
     position: absolute;
     bottom: 0;
