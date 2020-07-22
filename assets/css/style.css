@@ -3,6 +3,7 @@
     border: 1px solid black;
 } */
 body {
+    /* background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r476192280025264689&th=1736d3b03f9b8414&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-qsX6hf4bJzE5OU2oqv6I9vUdjtBE_k204z-o0vT9dX-_uuBsFfpPxMF6rSA_Ak1anK61Ig7taM5CxwJAz_jZOt3zYeGSAeTb0Dp92F1wgYA9xaJeCqyaaZ78&disp=emb&realattid=ii_kcuruuu20'); */
     font-family: 'Spartan', sans-serif;
     color: black;
     background-color: rgb(31, 30, 20);
@@ -13,7 +14,7 @@ body {
 }
 .container {
     padding-bottom: 30px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgba(233, 233, 233);
 }
 #padding-top {
     padding-top: 30px;
@@ -68,7 +69,7 @@ h1 {
 #profile {
     border-radius: 50%; 
     margin: 20px 20px 20px 50px;
-    width: 150px;
+    width: 200px;
 }
 
 .resume a {
@@ -113,9 +114,11 @@ h2 {
     background-size: cover;
    
 }
+
 .resume img{
     margin: 0px;
 }
+
 .resume-links {
     padding: 0px;
     display: inline;
@@ -141,7 +144,7 @@ form {
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     p {
@@ -149,7 +152,15 @@ form {
     }
 
     #profile {
-        width: 150px;
+        width: 168px;
+        display: block;
+    }
+
+    #profile-div {
+        text-align: center !important;
+       
+        display: flex;
+        justify-content: space-around;
     }
 
     .caption h2 {
