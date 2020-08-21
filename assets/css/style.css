@@ -8,11 +8,6 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-/* .activator:hover {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-} */
-
 .works {
   background-color: rgb(182, 180, 180);
   padding-top: 40px;
@@ -48,7 +43,7 @@ p {
   padding: 0px;
   padding-bottom: 0px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 #white {
