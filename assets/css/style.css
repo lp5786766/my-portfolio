@@ -1,180 +1,82 @@
-/* Main elements of the page: */
 /* * {
     border: 1px solid black;
 } */
+
 body {
-    /* background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=a3bf22e69a&attid=0.1&permmsgid=msg-a:r476192280025264689&th=1736d3b03f9b8414&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-qsX6hf4bJzE5OU2oqv6I9vUdjtBE_k204z-o0vT9dX-_uuBsFfpPxMF6rSA_Ak1anK61Ig7taM5CxwJAz_jZOt3zYeGSAeTb0Dp92F1wgYA9xaJeCqyaaZ78&disp=emb&realattid=ii_kcuruuu20'); */
-    font-family: 'Spartan', sans-serif;
-    color: black;
-    background-color: rgb(31, 30, 20);
-}
-.content {
-    position: relative;
-    min-height: 100vh;
-}
-.container {
-    padding-bottom: 30px;
-    background-color: rgba(233, 233, 233);
-}
-#padding-top {
-    padding-top: 30px;
-}
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    background-color:  rgba(0,0,0,0.8) ;
-    text-align: center;
-    color: white;
-    font-size: 12px;
-    padding-top: 8px;
+  background-color: rgb(56, 56, 56);
+  color: rgb(56, 56, 56);
+  font-family: 'Spartan', sans-serif;
 }
 
-footer p {
-    margin: 0px;
-}
+/* .activator:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+} */
 
-.navbar-custom {
-    background-color: rgba(31,30,20,0.8);
-    padding: 0px 16px;
-    
-}
-
-.nav-item a {
-    font-weight: 400;
-    color: rgba(241,253,17,0.8);;
-    
-}
-
-.nav-item {
-    display: inline;
-}
-
-h1 { 
-    padding-top: 20px;
-    font-weight: 800;
-    font-size: 2.2rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-.border {
-    margin: 15px;
-}
-
-    /* Home Page Elements */
-
-#profile {
-    border-radius: 50%; 
-    margin: 20px 20px 20px 50px;
-    width: 200px;
-}
-
-.resume a {
-    color: black;
-    font-size: 10px;
+.works {
+  background-color: rgb(182, 180, 180);
+  padding-top: 40px;
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 50px;
 }
 
-.card {
-    margin: 0px 20px 30px 0px;
+h3 {
+  margin: 30px 0px 50px 0px;
+  text-align: center;
 }
 
-.card-img-overlay {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    
-}    
-
-    /* Contact Page Elements */
-
-.contactimg a{
-    font-size: 15px;
-    color: black;
-    padding: 10px;
+.link {
+  display: inline;
 }
 
-.contactimg img {
-    width: 50px;
-    height: 50px;
-    
-    background-size: cover;
+p {
+  font-size: 16px;
 }
 
-.resume a img {
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-   
+.nav-wrapper {
+  background-color: rgb(32, 31, 31);
 }
 
-.resume img{
-    margin: 0px;
+.introduction {
+  background-color: rgba(241, 253, 17);
 }
 
-.resume-links {
-    padding: 0px;
-    display: inline;
+#img-div {
+  padding: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.btn-light {
-    padding: 0px;
-}
-.contactimg {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form {
-    border-bottom: 20px solid rgb(233, 233, 233);
-}
-
-@media screen and (max-width: 992px) {
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
-    #profile {
-        width: 168px;
-        display: block;
-    }
-
-    #profile-div {
-        text-align: center !important;
-       
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .caption h2 {
-        font-size: 0.8rem;
-    }
+#white {
+  color: white;
+  background-color: rgb(92, 90, 90);
+  margin-top: -25px;
 }
 
 @media screen and (max-width: 768px) {
+  #profile {
+    border-radius: 50%;
+    margin: 20px 20px 20px 50px;
+    width: 200px;
+    margin: 20px;
+    /* box-shadow: 5px 8px 8px #414141; */
+  }
 
-    .card img {
-        max-block-size: 350px;
-    }
-    .card {
-        max-width: 350px;
-        padding-bottom: 10px;
-    }
+  #img-div {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .introduction {
+    background-color: rgb(228, 228, 228);
+  }
+
+  h2 {
+    font-size: 14px;
+    margin: 14px 0px 14px 0px;
+  }
 }
