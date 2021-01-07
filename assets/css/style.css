@@ -9,8 +9,13 @@ body {
 }
 
 .works {
-  background-color: rgb(182, 180, 180);
-  padding-top: 40px;
+  background-color: rgb(206, 206, 206);
+  padding: 40px 80px 40px 80px;
+}
+
+.resume {
+  background-color: rgb(32, 31, 31);
+  color: white;
 }
 
 h2 {
@@ -21,6 +26,7 @@ h2 {
 h3 {
   margin: 30px 0px 50px 0px;
   text-align: center;
+  color: black;
 }
 
 .link {
@@ -58,7 +64,6 @@ p {
     margin: 20px 20px 20px 50px;
     width: 200px;
     margin: 20px;
-    /* box-shadow: 5px 8px 8px #414141; */
   }
 
   #img-div {
