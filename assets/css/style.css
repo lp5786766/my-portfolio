@@ -8,7 +8,9 @@ body {
   font-family: 'Spartan', sans-serif;
 }
 
-
+.res-header {
+  margin-top: 60px;
+}
 
 .works {
   background-color: rgb(206, 206, 206);
