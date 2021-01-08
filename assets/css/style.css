@@ -3,19 +3,25 @@
 } */
 
 body {
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(63, 61, 61);
   color: rgb(56, 56, 56);
   font-family: 'Spartan', sans-serif;
 }
+
+
 
 .works {
   background-color: rgb(206, 206, 206);
   padding: 40px 80px 40px 80px;
 }
-
+.contact {
+  background-color: rgb(206, 206, 206);
+  padding: 40px 80px 40px 80px;
+}
 .resume {
-  background-color: rgb(32, 31, 31);
-  color: white;
+  background-color: rgb(232,235,170);
+  color: rgb(56, 56, 56);
+  padding: 40px 80px 40px 80px;
 }
 
 h2 {
